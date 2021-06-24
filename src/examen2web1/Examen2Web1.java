@@ -216,10 +216,14 @@ public class Examen2Web1 {
                 }
             }
                 
-                
-            System.out.println("--------------------------------------------------------------------------------");
-            System.out.println("INGRESE OTRA OPCION");
-            System.out.println("--------------------------------------------------------------------------------");
+            if(opcionElegida != 5){
+                System.out.println("--------------------------------------------------------------------------------");
+                System.out.println("INGRESE OTRA OPCION");
+                System.out.println("--------------------------------------------------------------------------------");
+            }else{
+                System.out.println("GRACIAS POR USAR NUESTROS SERVICIOS");
+            }
+            
             
             
             
