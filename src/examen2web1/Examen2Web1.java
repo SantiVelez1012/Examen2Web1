@@ -56,11 +56,22 @@ public class Examen2Web1 {
         
         // SEGUNDO EJERCICIO
         
-        int cantNumeros;
+        int cantNumeros, cantNegativos = 0, num;
         System.out.println("Ingrese la cantidad de numeros a digitar: ");
         cantNumeros = teclado.nextInt();
         
-        for(int i = 0; i < cantNumeros; i++)
+        for(int i = 0; i < cantNumeros; i++){
+            System.out.println("Ingrese el numero: ");
+            num = teclado.nextInt();
+            if(num < 0){
+                cantNegativos++;
+            }
+        }
+        
+        System.out.println("La cantidad de numeros negativos es: " + cantNegativos);
+        
+        // TERCER EJERCICIO
+        
         
     }
     
