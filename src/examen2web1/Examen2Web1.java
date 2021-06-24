@@ -132,7 +132,6 @@ public class Examen2Web1 {
         
         
         String [] jugadores = new String[23];
-        ArrayList <String> convocatoria = new ArrayList<>();
         int opcionElegida = 0;
         String nombreJugador;
         boolean existe;
